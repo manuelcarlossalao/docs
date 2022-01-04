@@ -322,29 +322,6 @@ The `archived` qualifier filters your results based on whether an issue or pull 
 
 ## Search based on whether a conversation is locked
 
-You can search for an issue or pull request that has a locked conversation using the `is` qualifier. For more information, see "[Locking conversations](/communities/moderating-comments-and-conversations/locking-conversations)."
-
-| Qualifier        | Example
-| ------------- | -------------
-| `is:locked` | [**code of conduct is:locked is:issue archived:false**](https://github.com/search?q=code+of+conduct+is%3Alocked+is%3Aissue+archived%3Afalse) matches issues or pull requests with the words "code of conduct" that have a locked conversation in a repository that is not archived.
-| `is:unlocked` | [**code of conduct is:unlocked is:issue archived:false**](https://github.com/search?q=code+of+conduct+is%3Aunlocked+archived%3Afalse) matches issues or pull requests with the words "code of conduct" that have an unlocked conversation in a repository that is not archived.
-
-## Search by missing metadata
-
-You can narrow your search to issues and pull requests that are missing certain metadata, using the `no` qualifier. That metadata includes:
-
-* Labels
-* Milestones
-* Assignees
-* Projects
-
-| Qualifier        | Example
-| ------------- | -------------
-| `no:label` | [**priority no:label**](https://github.com/search?q=priority+no%3Alabel&type=Issues) matches issues and pull requests with the word "priority" that also don't have any labels.
-| `no:milestone` | [**sprint no:milestone type:issue**](https://github.com/search?q=sprint+no%3Amilestone+type%3Aissue&type=Issues) matches issues not associated with a milestone containing the word "sprint."
-| `no:assignee` | [**important no:assignee language:java type:issue**](https://github.com/search?q=important+no%3Aassignee+language%3Ajava+type%3Aissue&type=Issues) matches issues not associated with an assignee, containing the word "important," and in Java repositories.
-| `no:project` | [**build no:project**](https://github.com/search?utf8=%E2%9C%93&q=build+no%3Aproject&type=Issues) matches issues not associated with a project board, containing the word "build."
-
-## Further reading
-
-- "[Sorting search results](/search-github/getting-started-with-searching-on-github/sorting-search-results/)"
+You can search for an issue or pull req that have a locked conversation in a repository that is not archived.
+| `is:unlocked` | [**code of conduct is:unlocked is:issue archived:false**](https://github.com/search?q=code+of+conduct+is%3Aunlocked+archived%3Afalse) matches issues or pull requests with t=important+no%3Aassignee+language%3Ajava+type%3Aissue&type=Issues) matches issues not associated with an assignee, containing the word "important," and in Java repositories.
+| `no:project` | [**build no:project**](https://github.com/search?utf8=%E2%9C%93&q=build+no%3Aproject&typethub/getting-started-with-searching-on-github/sorting-search-results/)"
